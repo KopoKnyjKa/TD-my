@@ -10,7 +10,7 @@ class Enemy:
         self.cur_goal = 1
         self.dead = False
         self.queue = enemies_queue
-        self.hp = 1000
+        self.hp = 100
         self.spawn_time = 0
     def draw(self,surface):
             pygame.draw.circle(surface, Settings.BLACK, self.coord, self.size, self.size)
